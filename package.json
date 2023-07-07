@@ -1,0 +1,29 @@
+{
+  "name": "ast-workshop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "npm run test:node",
+    "test:watch": "npm run test:node -- --watch",
+    "test:node": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "mocha": "^10.0.0",
+    "common-tags": "^1.4.0"
+  }
+}
