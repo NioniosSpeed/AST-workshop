@@ -24,6 +24,8 @@
   "devDependencies": {
     "eslint": "^8.16.0",
     "mocha": "^10.0.0",
-    "common-tags": "^1.4.0"
+    "common-tags": "^1.4.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/plugin-proposal-decorators": "^7.18.10"
   }
 }
