@@ -7,7 +7,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/no-property-change-update.js");
+const rule = require("../../../lib/rules/7.no_property_change_update.js");
 const RuleTester = require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------

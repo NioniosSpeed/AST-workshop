@@ -1,6 +1,6 @@
 const {stripIndent} = require('common-tags')
 const {RuleTester} = require('eslint');
-const rule = require('../../../lib/rules/disallow_blockless_switch.js');
+const rule = require('../../../lib/rules/3.no_blockless_switch.js');
 
 const parserOptions = {
   ecmaVersion: 6,

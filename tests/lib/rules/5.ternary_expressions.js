@@ -1,5 +1,5 @@
 const {RuleTester} = require('eslint')
-const rule = require('../../../lib/rules/ternary_expressions.js');
+const rule = require('../../../lib/rules/5.ternary_expressions.js');
 
 const parserOptions = {
   ecmaVersion: 6,

@@ -2,7 +2,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/simplify-getters.js");
+const rule = require("../../../lib/rules/6.simplify_getters.js");
 const RuleTester = require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------

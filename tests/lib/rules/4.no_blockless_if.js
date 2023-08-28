@@ -1,6 +1,6 @@
 const {stripIndent} = require('common-tags')
 const {RuleTester} = require('eslint');
-const rule = require('../../../lib/rules/disallow_blockless_if.js');
+const rule = require('../../../lib/rules/4.no_blockless_if.js');
 
 const ruleTester = new RuleTester()
 

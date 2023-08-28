@@ -1,4 +1,4 @@
-const rule = require('../../../lib/rules/exercise_1.js');
+const rule = require('../../../lib/rules/1.no_console.js');
 const RuleTester = require('eslint').RuleTester;
 
 //------------------------------------------------------------------------------
